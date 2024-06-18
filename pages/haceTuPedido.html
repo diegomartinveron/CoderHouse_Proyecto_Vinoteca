@@ -37,43 +37,37 @@
       <div class="text-center mb-4">
         <h2>Nuestro Productos</h2>
       </div>
-      <div class="row">
-        <div class="col-md-6 mb-4">
-          <div class="card h-100">
-            <img src="../img/ventavino1.jpg" class="card-img-top img-fluid" alt="CHIANTI DOCG 2012 - Scuderia Italia">
-            <div class="card-body">
-              <h4 class="card-title">CHIANTI DOCG 2012 - Scuderia Italia</h4>
-              <p class="card-text">
-                Este es uno de los vinos por excelencia que simboliza la Toscana y el Made in Italy en el mundo. Tiene
-                su
-                origen en el corazón de la Toscana y su producción se rige por estrictas leyes que protegen sus
-                estándares
-                de calidad. Obtenido principalmente a partir de uvas Sangiovese y, en menor medida, de otras variedades
-                de uva tinta, tiene un vivo color rojo rubí que tiende al granate con el envejecimiento. Scuderia Italia
-                ha
-                optado por embotellar únicamente 2004 botellas de Chianti cosecha 2012, galardonado con la Medalla de
-                Oro
-                por la revista internacional Gilbert & Gaillard.
-              </p>
-              <p class="ventasvinosPrecios"><strong>Precio: U$S 23</strong></p>
-            </div>
-          </div>
+      <!-- slider con bootstrap -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
         </div>
-        <div class="col-md-6 mb-4">
-          <div class="card h-100">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/ventavino1.jpg" class="card-img-top img-fluid" alt="HIANTI DOCG 2012 - Scuderia Italia">
+          </div>
+          <div class="carousel-item">
             <img src="../img/ventavino2.jpg" class="card-img-top img-fluid" alt="Toscana - Italia Tinto tranquilo">
-            <div class="card-body">
-              <h4 class="card-title">Toscana - Italia Tinto tranquilo</h4>
-              <p class="card-text">
-                Color: Rojo intenso. Aroma: En nariz es intenso y complejo, caracterizado por notas de bayas como el
-                arándano y la ciruela combinadas con toques de avellanas tostadas, especias y vainilla. Sabor: En boca
-                es
-                con cuerpo y redondo, con taninos suaves y aterciopelados, largo y sápido.
-              </p>
-              <p class="ventasvinosPrecios"><strong>Precio: U$S 33</strong></p>
-            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/ventavino3.jpg" class="card-img-top img-fluid" alt="Selta Silk">
           </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Atras</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Adelante</span>
+        </button>
       </div>
     </main>
     <footer>
